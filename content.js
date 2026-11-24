@@ -1,100 +1,139 @@
 // ============================================================
-//  YOUR PORTFOLIO CONTENT  —  this is the ONLY file you need to edit.
+//  YOUR PORTFOLIO CONTENT — this is the ONLY file you need to edit.
 //
 //  Rules of the road:
 //   • Keep the quotes "like this" around every piece of text.
 //   • Keep the commas at the end of each line.
-//   • If your text contains a double quote, write it as \"  (or use 'single quotes').
-//   • To remove an optional section, set it to an empty list:  []
+//   • If your text contains a double quote, write it as \".
+//   • To remove an optional section, set it to an empty list: []
 //   • Save the file and refresh index.html to see your changes.
-//   • If the page shows a red error box, you probably deleted a quote or comma.
+//   • If the page shows a red error box, check quotes and commas.
 // ============================================================
 
 const content = {
   // ---------- About you ----------
-  name: "Percy Portfolio",
-  tagline: "Aspiring software developer & professional thumbs-up giver 👍", // one line under your name
+  name: "Bibi Enayat Zada",
+  tagline: "Software Engineering Technology Student | Software Engineer Intern",
 
   // Put your photo in the assets/ folder and put its file name here.
   // Square-ish, about 600px wide, under 1 MB works best.
-  photo: "assets/photo.jpg",
+  // For example: photo: "assets/bibi.jpg",
+  photo: "",
 
   // 1–3 sentences: what you care about and what you're looking for.
   mission:
-    "I build friendly, useful software and I'm looking for a co-op where I can learn fast, ship real features, and work with people who love teaching.",
+    "I build web applications, backend services, and database systems using C#, .NET, SQL, and AWS. I am studying Software Engineering Technology at Conestoga College and gaining hands-on experience at NAVBLUE. I also help students learn and connect through Google Developer Group at Conestoga.",
 
   // ---------- Make it yours ----------
   theme: {
     // Pick a look:
-    //   "classic" = clean and friendly (the default)
-    //   "techy"   = dark terminal vibes, one tab per section (always dark, always monospace)
-    //   "fancy"   = big serif headings, an arched photo, swipeable project cards
+    //   "classic" = clean and friendly
+    //   "techy"   = dark terminal, one tab per section
+    //   "fancy"   = big serif headings and swipeable project cards
     style: "classic",
 
-    // Pick a preset: "coral", "ocean", "grape", "forest", "sunset", "bubblegum"
-    // ...or use any hex color like "#ff6b9d".
+    // Presets: "coral", "ocean", "grape", "forest", "sunset", "bubblegum"
+    // You can also use a hex color like "#ff6b9d".
     accent: "ocean",
 
     // Pick a font: "modern", "serif", "rounded", "mono"
     font: "modern",
 
-    // "auto" follows the visitor's device. You can also force "light" or "dark".
-    // (The "techy" look is always dark.)
+    // "auto" follows the visitor's device.
+    // You can also choose "light" or "dark".
+    // The "techy" look is always dark.
     mode: "auto",
   },
 
   // ---------- Links (shown as buttons at the top) ----------
-  // For email just write the address, e.g. "you@example.com".
+  // For email, just write the address, e.g. "you@example.com".
   links: [
-    { label: "GitHub", url: "https://github.com/your-username" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/your-name" },
-    { label: "Email", url: "percy@example.com" },
+    {
+      label: "GitHub",
+      url: "https://github.com/BibiMurwared",
+    },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/bibi-enayat-zada-a9707a331",
+    },
   ],
 
   // ---------- Skills (optional — set to [] to hide) ----------
-  skills: ["JavaScript", "Python", "HTML & CSS", "Git", "Java", "SQL"],
+  skills: [
+    "C#",
+    "Python",
+    "SQL",
+    "C",
+    "JavaScript",
+    "TypeScript",
+    "HTML & CSS",
+    "ASP.NET Core",
+    ".NET",
+    "WPF",
+    "REST APIs",
+    "TCP/IP sockets",
+    "PostgreSQL",
+    "MySQL",
+    "SQL Server",
+    "Database Design",
+    "AWS",
+    "CloudFormation",
+    "SNS & SQS",
+    "CloudWatch",
+    "Automated Testing",
+    "Git",
+    "GitHub",
+    "GitLab CI/CD",
+    "Azure DevOps",
+    "Postman",
+  ],
 
   // ---------- Projects ----------
-  // Link to the GitHub repo (a live demo is optional — a repo is enough!).
+  // Link to the GitHub repo. A live demo is optional.
   // tags are optional.
   projects: [
     {
-      title: "Study Buddy",
-      description: "A web app that matches classmates into study groups based on courses and schedules.",
-      url: "https://github.com/your-username/study-buddy",
-      tags: ["JavaScript", "Node.js"],
+      title: "Fog Lamp Production Tracking System",
+      description:
+        "Built a C# and SQL Server application for production tracking and workflow monitoring. Designed a relational database with views, stored procedures, and triggers, and added data visualization to support reporting.",
+      url: "https://github.com/BibiMurwared/Fog-Lamp-Production-Tracking-System",
+      tags: ["C#", "SQL Server", "Database Design"],
     },
     {
-      title: "Campus Eats",
-      description: "A command-line tool that picks where to eat on campus using a very scientific coin flip.",
-      url: "https://github.com/your-username/campus-eats",
-      tags: ["Python"],
+      title: "Hospital Management System",
+      description:
+        "Developed a desktop application using C#, .NET, WPF, and MySQL to manage structured records. Used object-oriented programming, database schema design, CRUD operations, and parameterized SQL, with testing and debugging to improve reliability.",
+      url: "https://github.com/BibiMurwared/Hospital-Management-System-",
+      tags: ["C#", ".NET", "WPF", "MySQL"],
     },
     {
-      title: "Habit Tracker",
-      description: "A tiny mobile-friendly habit tracker that works offline.",
-      url: "https://github.com/your-username/habit-tracker",
-      tags: ["HTML", "CSS", "JavaScript"],
+      title: "Task Tracker Application",
+      description:
+        "Built a web application using ASP.NET, C#, and JavaScript to create and track tasks. Used REST APIs, validated features, and managed tasks and bugs through Azure DevOps.",
+      url: "https://github.com/BibiMurwared/Task-Tracker-Application-",
+      tags: ["ASP.NET", "C#", "JavaScript", "REST APIs", "Azure DevOps"],
     },
   ],
 
   // ---------- Education ----------
   education: [
     {
-      school: "Example College",
-      degree: "Diploma, Computer Programming",
-      years: "2024 – 2027",
-      details: "Relevant courses: Data Structures, Databases, Web Development.", // optional
+      school: "Conestoga College",
+      degree: "Advanced Diploma, Software Engineering Technology Co-op",
+      years: "September 2024 – April 2028",
+      details:
+        "GPA: 3.85 / 4.00. Studies include software development, object-oriented programming, relational databases, and structured data.",
     },
   ],
 
   // ---------- Work experience (optional — set to [] to hide) ----------
   experience: [
     {
-      role: "Peer Tutor",
-      org: "Example College Learning Centre",
-      years: "2025 – present",
-      description: "Help first-year students debug their programming assignments.",
+      role: "Software Engineer Intern",
+      org: "NAVBLUE (Airbus Skywise)",
+      years: "May 2026 – Present",
+      description:
+        "Help build a backend product using C#, ASP.NET Core, PostgreSQL, and AWS. Built a GitLab CI/CD pipeline and wrote unit, functional, integration, and end-to-end tests. Used CloudFormation, SNS, SQS, and CloudWatch for cloud infrastructure and messaging, and updated database routing to send reads to an Amazon RDS read replica and writes to the primary database.",
     },
   ],
 
@@ -102,9 +141,10 @@ const content = {
   extracurriculars: [
     {
       role: "Executive Lead",
-      org: "Google Developer Group on Campus",
-      years: "2025 – present",
-      description: "Run workshops and events for student developers.",
+      org: "Google Developer Group @ Conestoga College",
+      years: "February 2026 – Present",
+      description:
+        "Coordinated logistics, documentation, and team communication for The Growth Summit 2026, with over 200 attendees and 15 startups. Helped more than 30 students with setup, debugging, and troubleshooting during Build with AI workshops.",
     },
   ],
 };
