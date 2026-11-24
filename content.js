@@ -18,7 +18,7 @@ const content = {
   // Put your photo in the assets/ folder and put its file name here.
   // Square-ish, about 600px wide, under 1 MB works best.
   // For example: photo: "assets/bibi.jpg",
-  photo: "",
+  photo: "assets/Photo.jpeg",
 
   // 1–3 sentences: what you care about and what you're looking for.
   mission:
